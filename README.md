@@ -1,8 +1,8 @@
-# bindData
+# vue_databind
 
 ## 安装
 
-`npm install bind_data`
+`npm install vue_databind`
 
 ## 方法说明
 
