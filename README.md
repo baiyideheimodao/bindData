@@ -29,7 +29,7 @@ new 时调用的方法
 
 如下示例更改了userNo为'1'的数据的onlineStatus的值，将其改为'on'
 
-`import {bindData} from bind_data`  
+`import {bindData} from vue_databind`  
 `let b = new bindData(this.data,'children',['labelName','userNo'])`  
 `this.data = b.getData()`  
 `find('userNo','1').onlineStatus = 'on'`  
