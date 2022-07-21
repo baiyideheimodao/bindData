@@ -1,0 +1,22 @@
+{
+  "name": "binddata",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bindData.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/baiyideheimodao/bindData.git"
+  },
+  "keywords": [
+    "bind"
+  ],
+  "author": "baiyideheimodao",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/baiyideheimodao/bindData/issues"
+  },
+  "homepage": "https://github.com/baiyideheimodao/bindData#readme"
+}
