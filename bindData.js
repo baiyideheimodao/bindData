@@ -40,7 +40,7 @@ class bindData {
         return a
     }
     getData() {
-        return [...this.reduceData(this.data, this.children, this.map)];
+        return [this.reduceData(this.data, this.children, this.map)[0]];
     }
     find(a, b) {
         if (!this.map.has(a)) {
