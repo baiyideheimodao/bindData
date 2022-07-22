@@ -32,6 +32,10 @@ class bindData {
                         if (p in []) {
                             return [...t][p]
                         }
+                        if(p in a){
+                            return a[p]
+                        }
+                        return undefined;
                     }
                     return t[p].bind ? t[p].bind(t) : t[p];
                 }
