@@ -32,4 +32,4 @@ new 时调用的方法
 `import {bindData} from 'vue_databind'`  
 `let b = new bindData(this.data,'children',['labelName','userNo'])`  
 `this.data = b.getData()`  
-`find('userNo','1').onlineStatus = 'on'`  
+`b.find('userNo','1').onlineStatus = 'on'`  
